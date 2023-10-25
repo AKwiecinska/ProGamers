@@ -1,0 +1,70 @@
+@media (min-width: 400px) {
+	.team{
+		.card-img, .card-img-bottom, .card-img-top{
+			width: 70%;
+		}
+	}
+}
+@media (min-width: 576px) {
+	.card {
+		margin: 0;
+	}
+	.card:first-child {
+		margin-right: 25px;
+	}
+	.team {
+		.card-body {
+			height: 480px;
+		}
+		.card-img, .card-img-bottom, .card-img-top{
+			width: 100%;
+		}
+		
+	}
+}
+
+@media (min-width: 768px) {
+	header.hero-img {
+		.hero-text {
+			h1 {
+				font-size: 4.4rem;
+			}
+			font-size: 1.6rem;
+		}
+	}
+	.team {
+		.card-body {
+			height: 550px;
+		}
+	}
+}
+
+@media (min-width: 1000px) {
+	header.hero-img {
+		background-image: url("../img/game.jpg");
+	}
+}
+@media (min-width: 992px) {
+	html {
+		scroll-padding-top: 72px;
+	}
+	.team {
+		.card-body {
+			height: 450px;
+		}
+	}
+}
+@media (min-width: 1200px) {
+	.team {
+		.card-body {
+			height: 500px;
+		}
+	}
+}
+@media (min-width: 1400px) {
+	.team {
+		.card-body {
+			height: 550px;
+		}
+	}
+}

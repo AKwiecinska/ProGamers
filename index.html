@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>PROG</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+			crossorigin="anonymous" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/queries.css" />
+		<script
+			src="https://kit.fontawesome.com/35a0bfa58f.js"
+			crossorigin="anonymous"></script>
+	</head>
+	<body data-bs-spy="scroll" data-bs-target="#navId">
+		
+		<nav id="navId" class="navbar navbar-expand-lg position-fixed w-100 py-3">
+			<div class="container">
+				<a class="navbar-brand" href="#"
+					><i class="fa-solid fa-headset"
+						><span class="logo-color">PRO</span>G</i
+					></a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ms-auto">
+						<a class="nav-link active" href="#home">Home</a>
+						<a class="nav-link" href="#aboutus">About us</a>
+						<a class="nav-link" href="#portfolio">Portfolio</a>
+						<a class="nav-link" href="#prices">Prices</a>
+						<a class="nav-link" href="#achievements">Achievements</a>
+						<a class="nav-link" href="#team">Team</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		
+		<header class="hero-img" id="home">
+			<div class="hero-container">
+				<div class="hero-text text-center p-2">
+					<h1 data-aos="fade-up" data-aos-delay="200" §>
+						Welcome to the <span class="logo-color">New World</span>.
+					</h1>
+					<p data-aos="fade-up" data-aos-delay="400" §>
+						The place where you can go back in time
+					</p>
+				</div>
+				<a
+					data-aos="fade-up"
+					data-aos-delay="500"
+					§
+					href="#aboutus"
+					class="btn btn-outline-light text-capitalize"
+					>Find out more</a
+				>
+				<div class="hero-shadow"></div>
+
+				<a href="#aboutus"
+					><i class="fa-solid fa-chevron-down bounce-top"></i>
+				</a>
+			</div>
+		</header>
+
+		<main>
+			<section id="aboutus" class="aboutus py-5">
+				<div class="container">
+					<h2 class="section-title">About us</h2>
+					<div class="underline"></div>
+					<div class="row">
+						<div class="col-sm-6 col-md-4" data-aos="zoom-in">
+							<div class="text-center aboutus-hover">
+								<p><i class="fa-solid fa-mobile-screen"></i></p>
+								<p class="aboutus-card-title mb-0">Mobile Gaming</p>
+								<p class="aboutus-card-text">We're on phones!</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4" data-aos="zoom-in">
+							<div class="text-center aboutus-hover">
+								<p><i class="fa-solid fa-laptop"></i></p>
+								<p class="aboutus-card-title mb-0">Desktop Gaming</p>
+								<p class="aboutus-card-text">We're on PC!</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4" data-aos="zoom-in">
+							<div class="text-center aboutus-hover">
+								<p><i class="fa-solid fa-share-from-square"></i></p>
+								<p class="aboutus-card-title mb-0">We Share</p>
+								<p class="aboutus-card-text">It is not just a game</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4" data-aos="zoom-in">
+							<div class="text-center aboutus-hover">
+								<p><i class="fa-regular fa-file"></i></p>
+								<p class="aboutus-card-title mb-0">One File</p>
+								<p class="aboutus-card-text">
+									No reason to download many files
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4" data-aos="zoom-in">
+							<div class="text-center aboutus-hover">
+								<p><i class="fa-regular fa-user"></i></p>
+								<p class="aboutus-card-title mb-0">We Care</p>
+								<p class="aboutus-card-text">We're creating games for you</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4" data-aos="zoom-in">
+							<div class="text-center aboutus-hover">
+								<p><i class="fa-regular fa-thumbs-up"></i></p>
+								<p class="aboutus-card-title mb-0">Social Media</p>
+								<p class="aboutus-card-text">You can trust us</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="portfolio" class="portfolio py-5">
+				<h2 class="section-title">Portfolio</h2>
+				<div class="underline"></div>
+				<div class="container">
+					<div
+						id="carouselExampleIndicators"
+						class="carousel slide d-none d-lg-block">
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="0"
+								class="active"
+								aria-current="true"
+								aria-label="Slide 1"></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="1"
+								aria-label="Slide 2"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="./img/keyboard.jpg" class="d-block w-100" alt="..." />
+							</div>
+							<div class="carousel-item">
+								<img
+									src="./img/headphones.jpg"
+									class="d-block w-100"
+									alt="..." />
+							</div>
+						</div>
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide="prev">
+							<span
+								class="carousel-control-prev-icon"
+								aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide="next">
+							<span
+								class="carousel-control-next-icon"
+								aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+
+					<div class="card-group d-lg-none">
+						<div class="card">
+							<img
+								src="./img/keyboard-small.jpg"
+								class="card-img-top"
+								alt="Picture of the keyboard" />
+							<div class="card-body">
+								<h5 class="card-title">Keyboard</h5>
+								<p class="card-text">
+									One of the most notable advancements in the world of
+									headphones is the shift towards wireless technology.
+								</p>
+							</div>
+						</div>
+						<div class="card">
+							<img
+								src="./img/headphones-small.jpg"
+								class="card-img-top"
+								alt="The picture of the headphones on the table" />
+							<div class="card-body">
+								<h5 class="card-title">Headphones</h5>
+								<p class="card-text">
+									One interesting aspect of keyboards is their layout diversity.
+									QWERTY, AZERTY, and many others.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="prices" class="prices py-5">
+				<h2 class="section-title">Prices</h2>
+				<div class="underline"></div>
+				<div class="container">
+					<div class="price-wrap row justify-content-center">
+						<div class="col-md-6 col-xl-4" data-aos="fade-right">
+							<div class="price-box">
+								<p class="device fw-bold m-0">Mobile</p>
+								<h3 class="price">259$</h3>
+								<p class="image">
+									<i class="fa-solid fa-check me-2"></i>Beautiful image
+								</p>
+								<p class="response">
+									<i class="fa-solid fa-check me-2"></i>Fast response
+								</p>
+								<p class="online">
+									<i class="fa-solid fa-check me-2"></i>Available online
+								</p>
+								<p class="size">
+									<i class="fa-solid fa-check me-2"></i>Only 1GB
+								</p>
+								<br />
+								<button class="btn-prices text-capitalize fw-bold">
+									Buy now
+								</button>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-xl-4">
+							<div class="price-box">
+								<p class="device fw-bold m-0">Desktop</p>
+								<h3 class="price">299$</h3>
+								<p class="image">
+									<i class="fa-solid fa-check me-2"></i>Wonderful image
+								</p>
+								<p class="response">
+									<i class="fa-solid fa-check me-2"></i>Amazing response
+								</p>
+								<p class="online">
+									<i class="fa-solid fa-check me-2"></i>Available online
+								</p>
+								<p class="size">
+									<i class="fa-solid fa-check me-2"></i>Only 1GB
+								</p>
+								<br />
+								<button
+									class="btn-prices btn-best-option text-capitalize fw-bold">
+									Buy now
+								</button>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-xl-4" data-aos="fade-left">
+							<div class="price-box">
+								<p class="device fw-bold m-0">Tablets</p>
+								<h3 class="price">239$</h3>
+								<p class="image">
+									<i class="fa-solid fa-check me-2"></i>Very good image
+								</p>
+								<p class="response">
+									<i class="fa-solid fa-check me-2"></i>Not bad response
+								</p>
+								<p class="online">
+									<i class="fa-solid fa-check me-2"></i>Available via wifi
+								</p>
+								<p class="size"><i class="fa-solid fa-check me-2"></i>3GB</p>
+								<br />
+								<button class="btn-prices text-capitalize fw-bold">
+									Buy now
+								</button>
+							</div>
+						</div>
+					</div>
+					<p class="price-info text-center mt-2">
+						Use one of the three packets or
+						<a href="#contact">contact us</a> to negotiate terms!
+					</p>
+				</div>
+			</section>
+
+			<section id="achievements" class="achievements py-5">
+				<div class="portfolio-shadow"></div>
+
+				<div class="container">
+					<h2 class="section-title">achievements</h2>
+					<div class="underline"></div>
+
+					<div class="row">
+						<div
+							class="col-md-4 col-lg-4 col-xl-4 text-center mb-3 achievements-hover">
+							<p class="achievements-card-title mb-0">Prizes</p>
+							<p><i class="fa-solid fa-star"></i></p>
+							<p class="achievements-card-text">We won not just Nobel</p>
+						</div>
+
+						<div
+							class="col-md-4 col-lg-4 col-xl-4 text-center mb-3 achievements-hover">
+							<p class="achievements-card-title mb-0">Company</p>
+							<p><i class="fa-solid fa-house"></i></p>
+							<p class="achievements-card-text">We gathered 10 comapnies</p>
+						</div>
+
+						<div
+							class="col-md-4 col-lg-4 col-xl-4 text-center mb-3 achievements-hover">
+							<p class="achievements-card-title mb-0">People</p>
+							<p><i class="fa-solid fa-people-group"></i></p>
+							<p class="achievements-card-text">We connect with each other</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="team" class="team">
+				<h2 class="section-title">Team</h2>
+				<div class="underline"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-lg-3">
+							<div class="card-body" data-aos="fade-up">
+								<div class="card-text text-center">
+									<h5 class="team-name">Michael</h5>
+									<p class="team-role">Office Manager</p>
+								</div>
+								<img
+									src="./img/team/man-1-copy.png"
+									class="card-img-top"
+									alt="The picture of Michael" />
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-3">
+							<div class="card-body" data-aos="fade-down">
+								<div class="card-text text-center">
+									<h5 class="team-name">David</h5>
+									<p class="team-role">Graphic Designer</p>
+								</div>
+								<img
+									src="./img/team/man-2-copy.png"
+									class="card-img-top"
+									alt="The picture of Michael" />
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-3">
+							<div class="card-body" data-aos="fade-up">
+								<div class="card-text text-center">
+									<h5 class="team-name">Sophie</h5>
+									<p class="team-role">Business Analyst</p>
+								</div>
+								<img
+									src="./img/team/woman-1-copy.png"
+									class="card-img-top"
+									alt="The picture of Sophie" />
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-3">
+							<div class="card-body" data-aos="fade-down">
+								<div class="card-text text-center">
+									<h5 class="team-name">Emily</h5>
+									<p class="team-role">Product Manager</p>
+								</div>
+								<img
+									src="./img/team/woman-2-copy.png"
+									class="card-img-top"
+									alt="The picture of Emily" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="text-center p-2"><p>&copy; 2045 | ProGamers</p></footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+			crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+		<script src="./js/aos.js"></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
