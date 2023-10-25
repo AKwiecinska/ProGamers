@@ -60,7 +60,6 @@ nav {
 	.navbar-brand:focus,
 	.navbar-brand:hover {
 		color: colors.$accent-color;
-
 	}
 	position: relative;
 	z-index: 10;
@@ -72,11 +71,12 @@ header.hero-img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("../img/game-mobile.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	z-index: 1;
+	background-image: url("../img/game-mobile.jpg");
+
 	h1 {
 		padding: 10px;
 		font-weight: 700;
