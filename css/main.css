@@ -219,6 +219,7 @@ header.hero-img .hero-container {
 	border: none;
 	border-radius: 10px;
 	font-weight: 900;
+	color: colors.$ackground-color-dark-purple;
 	transition: scale 0.3s;
 }
 .prices .price-box:hover {
